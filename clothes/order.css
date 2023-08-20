@@ -1,0 +1,231 @@
+.empty {
+    padding: 5%;
+}
+
+.nav {
+    padding: 2%;
+    color: black;
+    min-height: 42px;
+    background-color: #6768ab;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.nav-list {
+    font-weight: bold;
+    color: #fff;
+    padding-left: 0;
+    margin: auto 16px;
+    list-style: none;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    margin: 15px;
+}
+
+.nav-list ul li:hover {
+    background-color: black;
+    border-radius: 4px;
+}
+
+.nav-item {
+    color: #fff;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.sub-menu-1 ul {
+    display: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-list ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    margin-left: -15px;
+    background-color: rgb(56, 52, 52);
+}
+
+.nav-list ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.nav-list ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.nav-list ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.nav-list ul li:hover .sub-menu-1 ul li a:hover {
+    color: pink;
+}
+
+.brand li a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    padding-right: 10%;
+}
+
+.taskbar {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.taskbar-text {
+    color: black;
+    border-bottom: 2px dotted black;
+}
+
+.middle {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.order .size {
+    padding: 20px;
+    border: 1px solid black;
+    list-style: none;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+
+.size {
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #6768ab;
+    color: white;
+}
+
+.add-product {
+    display: flex;
+}
+
+.add-product button {
+    border-radius: 5px;
+    background-color: #6768ab;
+    color: white;
+    padding: 25px;
+    padding-right: 320px;
+}
+
+.buy-product {
+    margin-top: 20px;
+    display: flex;
+}
+
+.buy-product button {
+    border-radius: 5px;
+    background-color: #6768ab;
+    color: white;
+    padding: 25px;
+    padding-right: 400px;
+}
+
+.bottom {
+    padding: 3%;
+    background-color: white;
+}
+
+.bottom ul h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-inf {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: whitesmoke;
+}
+
+.address {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.bottom-contact ul li {
+    list-style: none;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    list-style: none;
+    margin-inline-start: 5px;
+}
+
+.social li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+}
+
+.social li a:hover {
+    color: black;
+}
+
+.bottom-last {
+    padding: 1%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: inline-flex;
+}
+
+.text-x {
+    flex-direction: column;
+}
